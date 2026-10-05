@@ -9,7 +9,7 @@ function checkPalindrome(){
     .then((data) => {
       console.log(data);
       const result = document.getElementById("result");
-      result.textContent = data;
+      result.innerText = data;
     });
 
 }
